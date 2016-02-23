@@ -1,0 +1,23 @@
+<div class="row section">
+
+	<form class="col s12 right-align" ng-submit="teste.doPost(teste.post); teste.post = '';">
+
+		<div class="row">
+			<div class="input-field col s12 align-right">
+				<i class="material-icons prefix">mode_edit</i>
+				<textarea id="icon_prefix2" class="materialize-textarea" ng-model="teste.post.text"></textarea>
+				<label for="icon_prefix2">Digite seu post</label>
+			</div>
+		</div>
+
+		<button class="btn waves-effect waves-light offset-s3" type="submit" name="action">Postar
+			<i class="material-icons right">send</i>
+		</button>
+
+	</form>
+
+	<div class="section" ng-repeat="post in teste.posts">
+		<p>{{post.text}}</p>
+	</div>
+
+</div>

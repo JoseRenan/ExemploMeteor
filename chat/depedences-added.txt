@@ -1,0 +1,8 @@
+accounts-ui
+accounts-base
+accounts-password
+jquery
+materialize:materialize
+mizzao:user-status
+angular
+angular-ui-router
